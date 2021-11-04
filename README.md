@@ -1,4 +1,4 @@
-# Homework #5 OOP, prototype inheritance
+# Homework OOP prototype inheritance
 ## Deadline 11.11
 ### Create menu
 Вы хозяин небольшого кафе быстрого питания. Ваше меню состоит из следующих позиций:
