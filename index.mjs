@@ -1,11 +1,11 @@
-import Hamburger from "./components/Hamburger.js";
-import Salad from "./components/Salad.js";
-import Beverage from "./components/Beverage.js";
-import Order from "./components/Order.js";
+import Hamburger from "./components/Hamburger.mjs";
+import Salad from "./components/Salad.mjs";
+import Beverage from "./components/Beverage.mjs";
+import Order from "./components/Order.mjs";
 
-const yammyBurger = new Hamburger(Hamburger.SIZE_LARGE, Hamburger.STUFFING_CHEESE);
-const olivierSalad = new Salad(Salad.OLIVIER, 125);
-const coffee = new Beverage(Beverage.COFFEE);
+const yammyBurger = new Hamburger('SIZE_LARGE', 'STUFFING_CHEESE');
+const olivierSalad = new Salad('OLIVIER', 125);
+const coffee = new Beverage('COFFEE');
 const erunda = new Hamburger('', 'polnaya erunda');
 
 const order = new Order(1);
